@@ -32,7 +32,9 @@
 
 h3 {
 	color: #ff0500;
-	text-align: center;
+	font-weight: 700;
+	font-size: 16px;
+	margin-bottom: 0;
 }
 
 body {
@@ -63,6 +65,44 @@ ul {
 	clear: both;
 }
 
+.magazine--issue--this--week {
+	background: #ff0500;
+    color: #fff;
+    display: block;
+    line-height: 3em;
+    margin: 0 auto;
+    width: 7em;
+}
+
+.magazine--issue span, h3 {
+	text-align: center;
+}
+
+.magazine--issue--headline {
+	position: relative;
+	color: #0e0e0e;
+    text-transform: uppercase;
+    margin-bottom: 2em;
+    padding-bottom: 1em;
+    position: relative;
+}
+
+.magazine--issue--headline a {
+    color: #0e0e0e;
+    font-size: 2em;
+    text-transform: uppercase;
+}
+
+.magazine--issue--headline:after {
+    background: #0e0e0e;
+    bottom: 0;
+    content: "";
+    height: .1em;
+    left: 0;
+    position: absolute;
+    width: 70%;
+}
+
 .footer {
     background: #0e0e0e;
     border-top: 2px solid #ff0500;
@@ -71,9 +111,51 @@ ul {
     width: 100%;
 }
 
+.footer a {
+	color: #fff;
+}
+
 .footer--issue {
     margin-bottom: 1em;
     padding: 0 3em;
+}
+
+.footer--issue .bullet a {
+    color: #fff;
+}
+
+.footer--navbar {
+	background: #0e0e0e;
+	border: 0;
+}
+
+.footer--link {
+	margin-right: 2em;
+}
+
+.footer-link a {
+	color: #fff;
+    font: 700 1em/3em 'Source Sans Pro',lucida sans,arial,sans-serif;
+}
+
+.big--shot {
+	background: #e5e5e5;
+    padding: 2em 1em;
+}
+
+.big--shot--headline {
+	border-bottom: 1px solid #666;
+    padding-bottom: 2em;
+    margin-bottom: 2em;
+}
+
+.big--shot--headline a {
+	color: #ff0500;
+}
+
+.btn-slideshow {
+    background: #00bcfd;
+    color: #fff;
 }
 
 .section--heading:after {
@@ -94,6 +176,35 @@ ul {
     text-transform: uppercase;
 }
 
+.h2 {
+	font-size: 4em;
+    letter-spacing: -3px;
+    margin-bottom: .1em;
+    text-transform: uppercase;
+}
+
+.h2 a {
+	 color: #ff0500;
+}
+
+.section--heading {
+	font-size: 1.5em;
+    font-weight: 700;
+    margin-bottom: 2em;
+    position: relative;
+    text-align: center;
+}
+
+.section--border {
+    margin: 2em auto;
+    border-bottom: 1px solid;
+    padding-bottom: 2em;
+}
+
+.section--border--bottom {
+    border-color: #e5e5e5;
+}
+
 .header {
     background: #0e0e0e;
     box-shadow: 0 3px 3px #e5e5e5;
@@ -102,6 +213,21 @@ ul {
     top: 0;
     left: 0;
     z-index: 1000;
+}
+
+.header li {
+	font-size: 16px;
+    line-height: 100%;
+    display: inline-block;
+    font-family: 'Source Sans Pro',lucida sans,arial,sans-serif;
+    position: relative;
+}
+
+.header--logo {
+	background: url(https://g.europe.newsweek.com/www/img/redesign/sprite.png) -3px -49px no-repeat #ff0500;
+    text-indent: -9999px;
+    width: 55px;
+    border-bottom-color: #ff0500;
 }
 
 .header--nav--link {
@@ -153,4 +279,40 @@ ul {
 
 .article--featured--meta {
 	border-top: 2px solid #ff0500;
+	text-align: center;
+}
+
+.article--title {
+    padding: 0 3em;
+}
+
+.article--title a {
+    color: #0e0e0e;
+    text-decoration: none;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.icon {
+	background: url(https://g.europe.newsweek.com/www/img/redesign/sprite.png) 0 0 no-repeat transparent;
+    display: block;
+    height: 44px;
+    text-indent: -9999px;
+    width: 44px;
+}
+
+.icon--facebook {
+	background-position: 0 -120px;
+}
+
+.icon--twitter {
+    background-position: -54px -120px;
+}
+
+.icon--googleplus {
+	background-position: -108px -120px;
+}
+
+.icon--linkedin {
+	background-position: -162px -120px;
 }
