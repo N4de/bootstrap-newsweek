@@ -218,7 +218,6 @@ ul {
 .header li {
 	font-size: 16px;
     line-height: 100%;
-    display: inline-block;
     font-family: 'Source Sans Pro',lucida sans,arial,sans-serif;
     position: relative;
 }
@@ -231,7 +230,6 @@ ul {
 }
 
 .header--nav--link {
-	border-bottom: 2px solid #0e0e0e;
     color: #fff;
     float: left;
     font-size: .8em;
@@ -242,6 +240,8 @@ ul {
     text-transform: uppercase;
     transition: all ease .3s;
 }
+
+.nav--mobile--button {}
 
 
 .list--border {
